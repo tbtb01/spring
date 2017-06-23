@@ -2,8 +2,6 @@ language: ruby
 rvm:
   - 2.4.1
 env:
-  - RAILS_VERSION="~> 4.0.0"
-  - RAILS_VERSION="~> 4.1.0"
   - RAILS_VERSION="~> 4.2.0"
 before_script:
   - travis_retry gem install rails --version "$RAILS_VERSION"
